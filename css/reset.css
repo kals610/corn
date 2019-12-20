@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+
+/* reset */
+body,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,fieldset,button {margin:0; padding:0;}
+body,h1,h2,h3,h4,h5,h6,th,td,input,button{font:12px/1.5 "Nanum Gothic",sans-serif;}
+ul,ol,li { list-style: none;}
+img,fieldset{border:none;}
+fieldset{border:none; vertical-align:middle; width:200px; height:15px;}
+legend{display:none;}
+a{text-decoration:none; color:#999;}
+html,body{}
+address, em{font-style:normal;}
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);

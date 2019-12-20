@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>옥수수수염차</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/NanumGothic.css">    
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="https://www.youtube.com/player_api"></script>
+    
+<script>
+	jQuery(function(){
+        //메뉴
+        $('#nav  .gnb  li').mouseenter(function(){
+            $('.lnb',this).show()
+            $('#lnb_bg').stop().animate({height:40},200)
+        }).mouseleave(function(){
+            $('.lnb',this).hide()
+            $('#lnb_bg').stop().animate({height:0},200)
+        })	
+
+        //part04 영상팝업
+//        var player;
+//        function onYouTubeIframeAPIReady() {
+//            try {
+//                player = new YT.Player('i_mov', {
+//                    events: {
+//                        'onStateChange': onPlayerStateChange
+//                    }
+//                });
+//            }
+//            catch (e) {
+//
+//            }
+//        }
+
+//        function onPlayerStateChange(event) {
+//            if (event.data === 0) {
+//                isMov = false;
+//                $('#section04 .part04 .mov').hide();
+//                $('#i_mov').attr('src', '');
+//                //player.pauseVideo();
+//                //$('.paging').show();
+//            }
+
+//
+        // $('.part04 .btn_play a').click(function(e){
+        //     $('html, body').stop().animate({scrollTop:$('#section04 .part04').offset().top}, 500, function(){
+        //         $('#section04 .part04 .mov').show();
+        //         $('#i_mov').attr('src','https://www.youtube.com/embed/hInehzyhblk?vq=hd1080&controls=0&showinfo=0&modestbranding=1&wmode=transparent&autoplay=1&rel=0&enablejsapi=1');
+        //         //$('.paging').hide();
+        //         //player.seekTo(0, true);
+        //         //player.playVideo();
+        //         isMov = true;
+        //         isPart04 = true;
+
+        //         onYouTubeIframeAPIReady();
+        //     });
+        //     e.preventDefault();
+        // });
+
+	});
+</script>
+<style>
+
+</style>
+</head>
+
+<body>
+<div id="headerWrap">
+	<div id="header">
+    	<div id="top_nav">
+            <ul class="left_gnb">
+                <li><a href="#">역사관</a></li>
+                <li><a href="#">문의하기</a></li>
+            	<li>
+                    <form action="#">
+                        <fieldset>
+                            <legend>검색</legend>
+                            <label for="inputSch" class="hide">검색</label>
+                            <input type="text" id="inputSch" />
+                            <button id="btnSch">찾기</button>
+                        </fieldset>
+                    </form>
+                </li>
+            </ul><!--//end left_gnb-->
+            <ul class="right_gnb">
+                <li><a href="#">KOR</a></li>
+                <li><a href="#">ENG</a></li>
+                <li><a href="#">CHN</a></li>
+            </ul><!--//end right_gnb-->
+        </div><!-- //end top_nav -->
+        <div id="nav">
+            <ul class="gnb">
+                <li><a href="#">옥수수수염차</a>
+                    <ul class="lnb">
+                        <li><a href="#">브랜드소개</a></li>
+                        <li><a href="#">연혁</a></li>
+                        <li><a href="#">뉴스</a></li>                      
+                    </ul>
+                </li>
+                <li><a href="#">옥수수수염차 이야기</a>
+                    <ul class="lnb">
+                        <li><a href="#">Everybody 옥수수수염차</a><li>
+                        <li><a href="#">Everyday 옥수수수염차</a><li>
+                        <li><a href="#">옥수수가족 환경캠프</a><li>
+                    </ul>
+                </li>
+                <li><a href="#">시네마데이트</a>
+                    <ul class="lnb">
+                        <li><a href="#">시네마데이트란?</a></li>
+                        <li><a href="#">이달의 시네마</a></li>
+                        <li><a href="#">지난 시네마데이트</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">멀티미디어</a>
+                    <ul class="lnb">
+                        <li><a href="#">TV 광고</a></li>
+                        <li><a href="#">Print 광고</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">이벤트</a>
+                    <ul class="lnb">
+                        <li><a href="#">수염차 이벤트</a></li>
+                        <li><a href="#">당첨자 발표</a></li>
+                    </ul>
+                </li>
+                
+          </ul><!--//end gnb-->
+       	  <h1 class="logo"><a href="#"><img src="img/logo.jpg" alt="옥수수 수염차 로고" /></a></h1>
+          
+        </div><!-- //end nav -->
+        
+    </div><!--//end header-->
+    <div id="lnb_bg">
+        </div><!-- //end lnb_bg -->
+</div><!--//end headerWrap-->
+
+<div id="mainContents">
+	<div id="section01">
+        <div id="shadow">
+        </div>
+         <div class="part01">
+            <div class="drink"><img src="img/corndrink.png" alt="옥수수 수염차음료" /></div>
+            <div class="koreaNo1"><img src="img/korea01.png" alt="대한민국 넘버원" /></div>
+            <P class="section_txt">2006년 광동제약은 엄선된 원료와 우수한 기술로 출시 첫 해부터<br /> 
+            지금까지 대한민국에서 가장 사랑받는 차 음료, 광동 옥수수수염차를 선보였습니다. </P>   
+        </div><!-- //end part01 -->
+	</div><!-- //end section01 -->
+    
+    <div id="section02">
+        <div class="part02">
+            <img src="img/cornset.jpg" alt="옥수수수염차 세트" />
+            <ul class="story">
+                <li><h2>BRAND STORY</h2><li>
+                <li class="st_bar"></li>
+                <li><img src="img/koreacorn.png" alt="대한민국 넘버원 옥수수수염차" /></li>
+                <li class="st_txt">전통적인 옥수수차의 구수한 맛과 옥수수수염이 가미된 음료로<br />
+                    간편하고 가볍게, 물처럼 마실 수 있는 국민음료  옥수수수염차입니다.<br />
+                    언제까지나 사랑받을 수 있는 광동 옥수수수염차와 함께 하세요.
+                </li>
+            </ul>
+            <span class="more"><a href="#">더보기<img src="img/nextBtn.png" alt="링크페이지" /></a></span>
+        </div><!-- //end part02 -->
+    </div><!-- //end section02 -->
+    
+    <div id="section03">
+        <div class="part03">
+            <ul class="cinema">
+                <li><h3>구수한 맛 광동 옥수수수염차와 함께</h3><h2>시네마데이트란?</h2></li>
+                <li class="cine_bar"></li>
+                <li class="cine_txt">지금, 스트레스가 쌓였나요? 달콤한 사랑이 필요하세요?<br />
+                    마음껏 소리내어 웃고 싶진 않으세요? 지친가슴에 따뜻한 위로가 필요하다구요?<br />
+                    광동 옥수수수염차 시네마데이트를 신청하세요!</li>
+                <li class="ci_content">
+                    <p class="txt_ta">참여방법</p>
+                    <span class="txt_sub">이달의 시네마 페이지에서 신청하기 버튼을 클릭 후<br />
+                    신청수기를 올려주세요!</span>
+                </li>    
+                <li class="ci_content">
+                    <p class="txt_ta">진행방법</p>
+                    <span class="txt_sub">좋은사연을 올려주신 분들을 선정하여<br /> 
+                    시네마데이트에 초대합니다.</span>
+                </li>
+                <li class="ci_content">
+                    <p class="txt_ta">혜택은?</p>
+                    <span class="txt_sub">매월 옥수수수염차에서 준비하는 영화시사회에 초대드려요.(1인 2매)<br />
+                    단, 티켓은 타인에게 양도 할 수 없습니다.</span>
+                </li>
+                <li class="ci_content">
+                    <p class="txt_ta">참여자격?</p>
+                    <span class="txt_sub">광동 옥수수수염차를 사랑하는 광동통합회원 누구나<br />
+                    (영화에 따라 관람 연령이 제한될 수 있습니다.)</span>
+                </li>
+            </ul>
+            <img src="img/cinemaCorn.png" alt="옥수수수염차와 티켓" />
+            <span class="apply"><a href="#"><img src="img/apply.png" alt="신청하러가기" /></a></span>
+        </div><!-- //end part03 -->
+    </div><!-- //end section03 -->
+    
+    <div id="section04">
+        <div class="part04">
+            <p class="tvcf">TV CF</p>
+            <p class="btn_play"><a href="#"><img src="img/btn_play.png" alt="재생버튼" /></a></p>
+            <p class="tenyears"><img src="img/tenyears.png" alt="10년째V라인" /></p>
+            <div class="mov">
+              <iframe width="100%" height="100%" id="i_mov" src="" frameborder="0" title="영상 팝업" allowfullscreen></iframe>
+                
+            </div>
+        </div><!-- //end part04 -->
+    </div><!-- //end section04 -->
+    <div id="section05">
+        <div class="part05">
+            <img src="img/title_box.png" alt="" class="title_box"/>
+            <div class="title">
+                <h3>나의 특별한 순간과 함께</h3>
+                <h2>광동 옥수수수염차 V라인그램 EVENT</h2>
+                <h4>2016년 07월 01일 ~ 2016년 07월 31일</h4>
+            </div>
+            <div class="event_way event">
+                <ul>
+                    <li class="ev_number">01</li>
+                    <li class="sub_tit">참여방법</li>
+                    <li class="sub_txt">오른쪽을 보시면<br/>
+                        Step1, 2, 3 순서대로<br/>
+                        따라하여 이벤트를<br/>
+                        참여해보세요!</li>
+                </ul>
+                <img src="img/event_way.png" alt="참여방법순서이미지" />
+                <p class="img_txt01">광동 옥수수수염차 홈페이지에서
+                    이번 달 해시태그를 확인한다.</p>
+                <p class="img_txt02">해시태그에 맞게 광동 옥수수수염차와
+                    함께 사진을 예쁘게 찍는다.</p>
+                <p class="img_txt03">인스타그램에 사진과 해시태그를<br/>
+                    업로드하고, 홈페이지에서 참여 등록!</p>
+            </div>
+            <div class="giveaway event">
+                <ul>
+                    <li class="ev_number">02</li>
+                    <li class="sub_tit">경품</li>
+                    <li class="sub_txt">홈페이지에 들어가<br/>
+                        이벤트를 참여하시면<br/> 
+                        오른쪽에 있는<br/> 
+                        경품을 드립니다.</li>
+                </ul>
+                <img src="img/giveaway.png" alt="경품이미지" />
+                <p>CGV 영화예매권 1인 2매 + 광동 옥수수수염차 1BOX (20명).</p>
+            </div>
+              
+                
+            
+            
+        </div><!-- //end part05 -->
+    </div><!-- //end section05 -->
+</div><!-- //end mainContents -->
+<div id="footerWrap">
+    <div id="footer">
+        <div class="f_logo"><img src="img/kwangdonglogo.png" alt="광동 로고"/></div>
+        <ul class="f_menu">
+            <li><a href="#">이메일 무단수집거부</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보취급방침</a></li>
+            <li><a href="#">사이트맵</a></li>
+        </ul>
+        <address class="addr">서울 서초구 서초중앙로 85가산빌딩 T 02-6006-7777</address>
+        <p class="copyright">COPYRIGHT(C) KWANG DONG PHARMACEUTICAL CO., LTD. ALL RIGHTS RESERVED</p>
+    </div><!-- //end footer -->
+</div><!-- //end footerWrap -->
+</body>
+</html>
